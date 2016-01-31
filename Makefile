@@ -1,4 +1,5 @@
 syringe-holder.stl: bezier.dxf
+bezier.dxf:
 
 %.eps: %.svg
 	inkscape -E $@ $<
